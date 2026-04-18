@@ -1,0 +1,19 @@
+# Java build artifacts
+out/
+target/
+*.class
+*.log
+
+# Maven
+.settings/
+.recommenders/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
