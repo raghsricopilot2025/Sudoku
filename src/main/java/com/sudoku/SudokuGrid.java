@@ -139,7 +139,7 @@ public class SudokuGrid {
             builder.append("  ").append((char) ('A' + row)).append(' ');
             for (int col = 0; col < 9; col++) {
                 int value = current[row][col];
-                builder.append(value == 0 ? '_' : value);
+                builder.append(value == 0 ? 'E' : value);
                 if (col < 8) {
                     builder.append(' ');
                 }

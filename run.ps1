@@ -10,4 +10,4 @@ if (-Not (Test-Path $outDir)) {
     Write-Host "Build output not found. Running build.ps1..."
     .\build.ps1
 }
-java -cp $outDir com.sudoku.SudokuApp
+java "-Dfile.encoding=UTF-8" "-Dconsole.encoding=UTF-8" -cp $outDir com.sudoku.SudokuApp
